@@ -30,6 +30,7 @@
             <main>
                 @yield('content')
                 @livewireScripts
+                @include('sweetalert::alert')
                 <script src="//cdn.jsdelivr.net/npm/alpinejs" defer></script> 
             </main>
         </div>
