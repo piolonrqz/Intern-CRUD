@@ -34,7 +34,7 @@
                             <div class="text-sm text-gray-700">{{ $record->institution }}</div>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap">
-                            <div class="text-sm text-gray-700">{{ $record->career }}</div>
+                            <div class="text-sm text-gray-700">{{ $record->career_path }}</div>
                         </td>
                         <td class="px-6 py-4 whitespace-nowrap text-sm font-medium">
                             <div class="flex items-center gap-3">
